@@ -79,7 +79,6 @@ jobs:
             -Dvulkan-drivers= \
             -Dgallium-drivers=zink,panfrost,freedreno \
             -Dfreedreno-kmds=kgsl,msm \
-            -Dshared-glapi=false \
             -Dtools=drm-shim \
             -Dbuildtype=release
           ninja -C "build-android" install
